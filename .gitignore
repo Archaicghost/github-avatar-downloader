@@ -1,3 +1,6 @@
+#secret files
+secrets.js
+
 # Logs
 logs
 *.log
@@ -53,9 +56,6 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-#secret files
-secrets.js
 
 # dotenv environment variables file
 .env
