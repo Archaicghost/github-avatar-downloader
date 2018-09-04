@@ -31,7 +31,7 @@ function downloadImageByURL(url, filePath) {
 }
 
 
-getRepoContributors("jquery", "jquery", function(err, results) {
+getRepoContributors(process.argv[2], process.argv[3], function(err, results) {
 
   
   if (err) {
